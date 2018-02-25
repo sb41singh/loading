@@ -533,7 +533,7 @@ ul.w3ls-icons.w3l {
         font-size: 20px;
     }
     .newsletter input[type="email"] {
-        width: 62%;
+        width: 65%;
     }
     .newsletter input[type="submit"] {
         padding: 14px 20px;
@@ -651,7 +651,7 @@ ul.w3ls-icons.w3l {
     }
     .newsletter input[type="email"] {
         padding: 9px 15px;
-        width: 60%;
+        width: 65%;
     }
 }
 
