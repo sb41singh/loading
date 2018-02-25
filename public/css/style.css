@@ -5,6 +5,7 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
 
+
 /*-- Reset-Code --*/
 
 body {
@@ -76,6 +77,7 @@ a:hover {
     outline: none;
 }
 
+
 /*-- //Reset-Code --*/
 
 body {
@@ -98,6 +100,7 @@ body {
     background: rgba(14, 14, 13, 0.62);
 }
 
+
 /*--background--*/
 
 h1 {
@@ -117,7 +120,9 @@ p {
     font-family: 'Oxygen', sans-serif;
 }
 
+
 /*--//background--*/
+
 
 /*--timer--*/
 
@@ -210,7 +215,9 @@ p {
     padding: 2px;
 }
 
+
 /* --//timer-- */
+
 
 /*--newsletter--*/
 
@@ -311,7 +318,9 @@ body {
     background: rgba(247, 5, 87, 0.51);
 }
 
+
 /*--//newsletter--*/
+
 
 /*--copyright--*/
 
@@ -385,7 +394,9 @@ ul.w3ls-icons.w3l {
     border: 2px solid #f26522;
 }
 
+
 /*--//copyright--*/
+
 
 /*--responsive-design--*/
 
@@ -532,6 +543,8 @@ ul.w3ls-icons.w3l {
     .newsletter h2 {
         font-size: 20px;
     }
+    .newsletter input[type="text"]
+    .newsletter select
     .newsletter input[type="email"] {
         width: 65%;
     }
@@ -576,6 +589,8 @@ ul.w3ls-icons.w3l {
     .newsletter h2 {
         font-size: 17px;
     }
+    .newsletter input[type="text"]
+    .newsletter select
     .newsletter input[type="email"] {
         padding: 12px 15px;
         font-size: 13px;
@@ -649,6 +664,8 @@ ul.w3ls-icons.w3l {
         font-size: 13px;
         padding: 9px 26px;
     }
+    .newsletter input[type="text"]
+    .newsletter select
     .newsletter input[type="email"] {
         padding: 9px 15px;
         width: 65%;
@@ -683,6 +700,8 @@ ul.w3ls-icons.w3l {
         font-size: 14px;
         margin: 10px 0px;
     }
+    .newsletter input[type="text"]
+    .newsletter select
     .newsletter input[type="email"] {
         padding: 15px;
         width: 60%;
@@ -709,7 +728,7 @@ ul.w3ls-icons.w3l {
     h1 {
         font-size: 25px;
     }
-    .newsletter input[type="email"] {
+    .newsletter input[type="text"] .newsletter select .newsletter input[type="email"] {
         padding: 10px;
         width: 50%;
     }
@@ -774,7 +793,7 @@ ul.w3ls-icons.w3l {
     .newsletter input[type="submit"] {
         padding: 10px 7px;
     }
-    .newsletter input[type="email"] {
+    .newsletter input[type="text"] .newsletter select .newsletter input[type="email"] {
         padding: 10px;
         width: 58%;
     }
@@ -782,5 +801,6 @@ ul.w3ls-icons.w3l {
         line-height: 85px;
     }
 }
+
 
 /*--//responsive-design--*/
