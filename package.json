@@ -1,0 +1,26 @@
+{
+  "name": "loading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sb41singh/loading.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sb41singh/loading/issues"
+  },
+  "homepage": "https://github.com/sb41singh/loading#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.1.18",
+    "path": "^0.12.7"
+  }
+}
