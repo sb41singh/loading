@@ -5,7 +5,6 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 */
 
-
 /*-- Reset-Code --*/
 
 body {
@@ -77,7 +76,6 @@ a:hover {
     outline: none;
 }
 
-
 /*-- //Reset-Code --*/
 
 body {
@@ -100,7 +98,6 @@ body {
     background: rgba(14, 14, 13, 0.62);
 }
 
-
 /*--background--*/
 
 h1 {
@@ -120,9 +117,7 @@ p {
     font-family: 'Oxygen', sans-serif;
 }
 
-
 /*--//background--*/
-
 
 /*--timer--*/
 
@@ -215,9 +210,7 @@ p {
     padding: 2px;
 }
 
-
 /* --//timer-- */
-
 
 /*--newsletter--*/
 
@@ -245,7 +238,7 @@ body {
 
 .newsletter input[type="email"] {
     padding: 16px 2%;
-    width: 50%;
+    width: 65%;
     margin-right: 0px;
     letter-spacing: 1px;
     font-size: 15px;
@@ -258,10 +251,28 @@ body {
     background: rgba(14, 14, 13, 0.62);
     margin-top: 1rem;
     box-sizing: border-box;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
 }
 
 .newsletter input[type="text"] {
+    padding: 16px 2%;
+    width: 65%;
+    margin-right: 0px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: #fff;
+    max-width: 96%;
+    outline: none;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    background: rgba(14, 14, 13, 0.62);
+    margin-top: 1rem;
+    box-sizing: border-box;
+    border-bottom: 2px solid gray;
+}
+
+.newsletter select {
     padding: 16px 2%;
     width: 50%;
     margin-right: 0px;
@@ -276,7 +287,7 @@ body {
     background: rgba(14, 14, 13, 0.62);
     margin-top: 1rem;
     box-sizing: border-box;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
 }
 
 .newsletter input[type="submit"] {
@@ -300,9 +311,7 @@ body {
     background: rgba(247, 5, 87, 0.51);
 }
 
-
 /*--//newsletter--*/
-
 
 /*--copyright--*/
 
@@ -376,9 +385,7 @@ ul.w3ls-icons.w3l {
     border: 2px solid #f26522;
 }
 
-
 /*--//copyright--*/
-
 
 /*--responsive-design--*/
 
@@ -775,6 +782,5 @@ ul.w3ls-icons.w3l {
         line-height: 85px;
     }
 }
-
 
 /*--//responsive-design--*/
