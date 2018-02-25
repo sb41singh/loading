@@ -18,6 +18,10 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + "/public/index.html");
 });
 
+app.get('/home', function (req, res) {
+    res.sendFile(__dirname + "/public/index.html");
+});
+
 app.post('/save', function (req, res) {
     var r = req.body;
     var o = getQueryObj({
@@ -25,6 +29,7 @@ app.post('/save', function (req, res) {
         q: r
     });
     saveData(o);
+    res.redirect('/home?res=true');
 });
 
 var MongoClient = require('mongodb').MongoClient;

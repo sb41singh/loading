@@ -65,7 +65,9 @@
 	<script src="js/jquery.countdown.js"></script>
 	<script src="js/script.js"></script>
 	<script>
-		
+		if (window.location.search != "") {
+			$('.newsletter input[type="submit"]').val('Details Saved');
+		}
 	</script>
 </body>
 
