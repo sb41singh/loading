@@ -42,11 +42,11 @@
 			<!--newsletter-->
 			<div class="newsletter">
 				<h2>Subscribe as restaurant or customer to get exiciting offer</h2>
-				<form action="save" method="post">
+				<form action="save" method="post" id="form">
 					<input type="text" name="name" size="30" required="" placeholder="Please enter your name" />
 					<input type="text" name="phone" size="30" required="" placeholder="Please enter your mobile" />
 					<input type="email" name="email" size="30" required="" placeholder="Please enter your email" />
-					<select name="type">
+					<select name="type" form="form">
 						<option value="user" selected>User</option>
 						<option value="restaurant">Restaurant</option>
 					</select>
